@@ -1,0 +1,108 @@
+.cart{
+  padding-bottom: 50px;
+  &__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  &__title{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  &__count{
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+  }
+  &__line{
+    border: 1px solid #c7ccd7;
+    text-decoration: #7d8290;
+  }
+  &__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-info{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    &-title{
+      color: #000;
+      font-family: "Montserrat", sans-serif;
+      font-size: 19px;
+      font-weight: 700;
+    }
+    &-author{
+      color: #000;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+    }
+    &-min{
+      border: 1px solid #c7ccd7;
+      border-radius: 5px;
+      background: transparent;
+      width: 32px;
+      height: 100%;
+
+      font-size: 20px;
+      font-weight: 500;
+      color: #7d8290;
+    }
+    &-max{
+      border: 1px solid #c7ccd7;
+      border-radius: 5px;
+      background: transparent;
+      width: 32px;
+      height: 100%;
+
+      font-size: 20px;
+      font-weight: 500;
+      color: #7d8290;
+    }
+    &-num{
+      font-size: 16px;
+      outline: none;
+      font-weight: 500;
+      text-align: center;
+      border: 1px solid #c7ccd7;
+      width: 42px;
+      height: 25px;
+    }
+    &-price{
+      color: #000;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+  &__bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+    &-count{
+      color: #000;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    &-order{
+      border: 1px solid #525252;
+      border-radius: 5px;
+      padding: 5px 10px;
+      background: transparent;
+      color: #111;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+    }
+  }
+  img{
+    width: 100px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,75 @@
+.form{
+  padding: 80px 75px;
+  height: 100vh;
+  &__logo{
+    margin-bottom: 100px;
+  }
+  &__content{
+   &-title{
+     color: #444B59;
+     font-family: "Overpass", sans-serif;
+     font-size: 36px;
+     font-weight: 800;
+     letter-spacing: 3.6px;
+   }
+    &-text{
+      color: #444B59;
+      font-family: "Nunito", sans-serif;
+      font-size: 20px;
+      letter-spacing: 2.4px;
+      margin: 12px 0 64px;
+    }
+    &-link{
+      color: #8699DA;
+      font-family: "Nunito", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 2.4px;
+    }
+  }
+  &__btn{
+    border-radius: 80px;
+    background: #8699DA;
+    box-shadow: 4px 8px 12px 0 rgba(78, 99, 141, 0.06), 0 4px 12px 0 rgba(200, 211, 249, 0.60) inset;
+    width: 400px;
+    height: 50px;
+    margin-top: 55px;
+
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2.8px;
+  }
+  &__label{
+    &-text{
+      color: #444B59;
+      font-family: "Nunito", sans-serif;
+      font-size: 23px;
+      font-weight: 600;
+      letter-spacing: 2.8px;
+    }
+    &-field{
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+      margin: 16px 0 16px;
+      width: 400px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #789ADE;
+    }
+    &-icon{
+      font-size: 20px;
+    }
+    &-input{
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+
+      color: #789ADE;
+      font-family: "Nunito", sans-serif;
+      letter-spacing: 2.4px;
+    }
+  }
+}
