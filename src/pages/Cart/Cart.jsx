@@ -7,7 +7,6 @@ const Cart = () => {
                 <div className="cart__top">
                     <h2 className="cart__title">Корзина</h2>
                     <p className="cart__count">Удалить всё</p>
-                    <span className="card__line"></span>
                 </div>
 
                 <div className="cart__row">
@@ -32,7 +31,7 @@ const Cart = () => {
 
                 <div className="cart__bottom">
                     <p className="cart__bottom-count">
-                        Итоговая стоимость: 600
+                        Итоговая стоимость: 600 сом
                     </p>
                     <button className="cart__bottom-order">
                         Оформить заказ

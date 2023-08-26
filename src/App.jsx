@@ -12,6 +12,7 @@ import './styles/style.scss'
 import LogIn from "./pages/LogIn/LogIn";
 import Register from "./pages/Register/Register";
 import Favorites from "./pages/Favorites/Favorites";
+import CheckOut from "./pages/CheckOut/CheckOut";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/cataloge' element={<Cataloge/>}/>
+          <Route path='/checkout' element={<CheckOut/>}/>
           <Route path='/room' element={<Room/>}/>
           <Route path='/favorites' element={<Favorites/>}/>
           <Route path='/product/:id' element={<Product/>}/>
